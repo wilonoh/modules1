@@ -1,0 +1,23 @@
+module "vpc" {
+source = "../modules_ii/vpc"
+vpc_region = var.vpc_region
+#vpc_cidr = var.vpc_cidr
+#prying = var.prying
+project_name = var.project_name
+modules_ii_vpc_cidr_block = var.modules_ii_vpc_cidr_block
+modules_ii_pub_sub1_cidr_block = var.modules_ii_pub_sub1_cidr_block
+modules_ii_pub_sub2_cidr_block = var.modules_ii_pub_sub2_cidr_block
+modules_ii_priv_sub1_cidr_block = var.modules_ii_priv_sub1_cidr_block
+modules_ii_priv_sub2_cidr_block = var.modules_ii_priv_sub2_cidr_block
+modules_ii_priv_sub3_cidr_block = var.modules_ii_priv_sub3_cidr_block
+modules_ii_priv_sub4_cidr_block = var.modules_ii_priv_sub4_cidr_block
+modules_ii_pub_sub1_availability_zone = var.modules_ii_pub_sub1_availability_zone
+modules_ii_pub_sub2_availability_zone = var.modules_ii_pub_sub2_availability_zone
+modules_ii_priv_sub1_availability_zone = var.modules_ii_priv_sub1_availability_zone
+modules_ii_priv_sub2_availability_zone = var.modules_ii_priv_sub2_availability_zone
+modules_ii_priv_sub3_availability_zone = var.modules_ii_priv_sub3_availability_zone
+modules_ii_priv_sub4_availability_zone = var.modules_ii_priv_sub4_availability_zone
+modules_ii_pub_rt_cidr_block = var.modules_ii_pub_rt_cidr_block
+modules_ii_priv_rt1_cidr_block = var.modules_ii_priv_rt1_cidr_block
+modules_ii_priv_rt2_cidr_block = var.modules_ii_priv_rt2_cidr_block
+}
